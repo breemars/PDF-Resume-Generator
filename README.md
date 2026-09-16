@@ -1,6 +1,6 @@
 # PDF Resume Generator
 
-A Python-based PDF resume generator that converts an HTML/CSS resume into a polished, print-ready PDF using Playwright and Chromium.
+This is a Python-based PDF resume generator that converts HTML/CSS into a PDF document using Playwright and Chromium.
 
 The resume layout, styling, colors, icons, and visual elements are created in HTML/CSS, while Python handles the PDF generation process.
 
@@ -31,15 +31,17 @@ pip install playwright
 playwright install chromium
 ```
 
-### 4. Create your index.html file
+### 3. Create your index.html file
 
 Create your own resume format using HTML and CSS and save it as index.html in the same folder as the Python script
 
-### 5. Generate the PDF
+### 4. Generate the PDF
 
 Run the Python script:
 
+```bash
 python Generate_PDF_Resume.py
+```
 
 The script will read index.html and generate resume.pdf
 
